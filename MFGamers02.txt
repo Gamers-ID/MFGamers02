@@ -1,0 +1,152 @@
+#!bin/bash
+clear
+bi='\33[34;1m' #biru
+ij='\33[32;1m' #ijo
+pr='\33[35;1m' #purple
+cy='\33[36;1m' #cyan
+me='\33[31;1m' #merah
+pu='\33[37;1m' #putih
+ku='\33[33;1m' #kuning
+echo $ku"Masukkan Nama Anda :"
+read nama
+echo $ku"Selamat Datang Tuan" $nama
+sleep 2
+clear
+echo "Masukkan Password Nya Di Bawah Ini: "
+read pass
+if [ $pass = "MGO" ]
+then
+   echo "Pass Benar"
+else
+   echo "Password Salah"
+   echo "Silahkan Ulangi"
+sleep 1
+   exit
+fi
+sleep 1
+clear
+echo "WAIT 3 SECONDS"
+     echo "Yang sabar dapat pahala amin..."
+sleep 3
+clearecho $me"       SUBSCRIBE LIKE AND COMMENT       "
+echo $ku"╭━─━─━─≪✠≫─━─━─━─━──━─━───━─━─≪✠≫─━─━─━╮"
+echo $pr"|  AUTHOR  :"$cy"MR.MF                      |"
+echo $pr"|  YOUTUBE :"$cy"MF GAMERS Official         |"
+echo $pr"|  INSTAGRAM :"$cy"mfgamers_yt              |"
+echo $ku"╰━─━─━─≪✠≫─━─━──━─━──━─━──━─━─≪✠≫─━─━─━╯"
+echo
+echo $ku "SILAHKAN PILIH NOMORNYA"
+echo $ku "___________________________________________"
+echo $cy "(1)200 TOOLS LENGKAP [ADA YANG COID]"
+echo $cy "(2)TOOLS MENGERIKAN [HARUS TAU KEGUNAANNYA]"
+echo $cy "(3)TOOLS SPAM CALL/SMS WA                  "
+echo $cy "(4)HACK FB                                 "
+echo $cy "(5)20 TOOLS HACKING TERBAIK                "
+echo $cy "(6)SMS-ID (FREE) SUSAH                     "
+echo $cy "(7)SANTET ONLINE SUSAH                     "                                                                                                 echo $cy "(8)OPEN INFORMATION FB SUSAH               "
+echo $cy "(9)VIRUS REAL (VBUG) [COID]                "                                                                                                 echo $cy "(10)DARK NET/HACK WEBSITE                  "                                                                                                 echo $cy "(0)EXIT✓                                   "                                                                                                 echo $cy "___________________________________________"                                                                                                 echo                                                                                                                                                   echo $cy "█▬█ █ ▀█▀"                                                                                                                                      read -p "|░M░R░.░M░F░ PILIH: " pil :
+
+#batas gan                                                                                                                                             if [ $pil = 1 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6
+cd BAJINGANv6
+ls
+sh BAJINGAN.sh
+fi
+#batas gan
+if [ $pil = 2 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/AbyssExploit/Uchiha
+cd Uchiha
+ls
+bash setup.sh
+bash sharingan.sh
+fi
+#batas gan
+if [ $pil = 3 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/termuxandi/tollsSpam
+cd tollsSpam
+ls
+sh SpamNmr.sh
+fi
+#batas gan
+if [ $pil = 4 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/anggaxd/cid
+cd cid
+ls
+python2 crack.py
+fi
+#batas gan
+if [ $pil = 5 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/novalattasya/Tool-N
+cd Tool-N
+pip2 install requests
+pip2 install mechanize
+python2 v1.py
+fi
+#batas gan
+if [ $pil = 6 ]
+then
+echo $ku"PROSES....."
+sleep 1                                                                                                                                                git clone https://github.com/amsitlab/smsid-java
+cd smsid-java                                                                                                                                          ./install                                                                                                                                              smsid                                                                                                                                                  fi                                                                                                                                                     #batas gan
+if [ $pil = 7 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/Gameye98/santet-online
+cd santet-online
+ls                                                                                                                                                     python2 santet.py
+fi                                                                                                                                                     #batas gan                                                                                                                                             if [ $pil = 8 ]                                                                                                                                        then                                                                                                                                                   echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/Ciku370/OSIF
+cd OSIF
+ls
+python osif.py
+#batas gan
+if [ $pil = 9 ]
+then
+echo $ku"PROSES....."
+sleep 1
+git clone https://github.com/Junior60/vbug
+cd vbug
+ls
+python2 vbug.py
+fi
+#batas gan
+if [ $pil = 10 ]
+then
+git clone https://github.com/AbyssExploit/Darknetv1
+cd Darknetv1
+ls
+bash darknet.sh
+fi
+#batas gan
+if [ $pil = 0 ]
+then
+echo "TERIMA KASIH TELAH MENGGUNAKAN SCRIPT INI TUAN" $nama
+sleep 1
+echo "We Security"
+sleep 1
+echo " We Not Friends"
+sleep 1
+echo "We Are Family"
+sleep 1
+echo "Hacking Is Not Criminal;)"                                                                                                                       sleep 1
+echo "Ketika Sebuah Hayalan Tidak tercapai"                                                                                                            sleep 1                                                                                                                                                echo "Maka Terus lah BerJuang Dan Berusaha:)"                                                                                                          sleep 1                                                                                                                                                echo "Karna Suatu Hari Nanti Kamu akan Mendapatkannya:)"
+sleep 1
+exit
+fi
